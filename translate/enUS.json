@@ -1,0 +1,157 @@
+{
+
+    "args": {
+
+        "act": "activate",
+        "dsb": "disable",
+        "sendid": "Send the chat id in the chat",
+        "sucessdef": "Channel set successfully",
+        "undef": "Log disabled successfully",
+        "notreason": "Motivo não justificado",
+        "ping": "My ping",
+
+        "lang": {
+
+            "select": "Select the desired language",
+            "lang": "languages",
+            "langequal": "I already speaking this language",
+            "ptbr": "Brazilian portuguese",
+            "eng": "English"
+
+        },
+        
+        "invite": {
+
+            "invite": "Invitation",
+            "dsc": "Invite me by clicking here"
+
+        },
+
+        "commands": {
+
+            "invites": {
+
+                "invite": "Invites of {0}",
+
+                "uses": "Uses: {0}",
+
+                "notinvite": "This member does not have an invite",
+
+                "notinviteguild": "The server has no invites yet"
+
+            },
+
+            "deleteinvite": {
+
+                "sucess": "Successfully deleted invitation",
+
+                "notfound": "I couldn\"t find this invite on the server"
+
+            },
+
+            "inviteinfo": {
+
+                "uses0": "Infinite",
+
+                "expirenone": "Never",
+
+                "created": "Created by:",
+
+                "usest": "Total uses:",
+
+                "usesm": "Maximum uses:",
+
+                "expire": "Expire in:",
+
+                "datecreate": "Created on:",
+
+                "notfound": "I couldn\"t find this invite on the server"
+
+            },
+
+            "setup": {
+                "init": "Starting Setup",
+                "selectlang": "Select language",
+                "invitelogger": "Send id or mention channel of guest log",
+                "invitecreate": "Send id or mention channel from created invitation log",
+                "invitedelete": "Send id or mention channel from deleted invite log",
+                "success": "Set successfully", 
+                "terminated": "Configuration finished"
+            }
+        },
+
+        "invites": {
+
+            "invited": "{0} has been invited by {1} and now he has {2} invites",
+
+            "bot": "{0} joined the server via OAuth2",
+
+            "invitecreate": "{0} create the invite: {1}, uses max: {2}, expires in: {3}",
+
+            "invitedelete": "the invite {0} has been deleted",
+
+            "uses": "infinities",
+
+            "expira": "never"
+
+        },
+
+        "mod": {
+        
+            "notpermission": "You are not allowed to do that.",
+            "cooldown": "You need to wait {0} to use this command again",
+            "botnotpermission1": "Sorry, but I'm not allowed to",
+            "botnotpermission2": "to use this command",
+
+            "log": "Which log will you set?",
+            "invite": "Member invited",
+            "invitecreate": "Invite created log",
+            "invitedelete": "Invite deleted log",
+            "setlog": "Chat logs successfully set to",
+            "unsetlog": "Log chat removed",
+
+            "invitename": "Invite",
+            "invitenamecreate": "Invite Create",
+            "invitenamedelete": "Invite Delete"
+
+        }
+
+    },
+
+    "help":{
+
+        "extras":{
+
+            "init":"Choose category\nwanted to know\nmy commands",
+
+            "commands":"My commands"
+        },
+
+        "mod": {
+
+            "name1": "Moderation",
+
+            "name2": "Moderation commands",
+
+            "description": "**Name/Permission/Role**",
+
+            "content":"Set-language - sets the bot's language\nSet-logs - sets the bot's logs\nDelete-Invitation - deletes a created invite\nSetup - Starts bot configuration"
+        },
+        "general":{
+
+            "name": "General",
+
+            "description": "General commands",
+
+            "content":"Ping - Shows my ping and the discord api\nServers - Tells how many servers I'm on\nInvite - Sends the link to invite the bot\nInvite-Info - Sends the information of an invitation\nInvitations - Shows your invitations or a member\nBot-info - Shows some information about the bot\nVote - Sends the link to vote for the bot"
+        },
+        "suport": {
+
+            "name": "Support",
+
+            "description": "Support commands",
+
+            "content": "Suggest - Send a suggestion to my owner\nReport - Send a report to my owner"
+        }
+    }
+}

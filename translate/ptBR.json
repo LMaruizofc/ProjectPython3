@@ -1,0 +1,141 @@
+{
+
+    "args": {
+
+        "act": "Ativar",
+        "dsb": "Desativar",
+        "sendid": "Mande no chat o id do chat",
+        "sucessdef": "Canal definido com sucesso",
+        "undef": "Log desativada com sucesso",
+        "notreason": "Motivo não justificado",
+        "ping": "Meu ping",
+
+        "lang": {
+
+            "select": "Selecione o idioma desejado",
+            "lang": "Idiomas",
+            "langequal": "Eu já estou falando esse idioma",
+            "ptbr": "Português Brasileiro",
+            "eng": "Inglês"
+
+        },
+
+        "commands": {
+
+            "invites": {
+
+                "invite": "Convites de {0}",
+                "uses": "Usos: {0}",
+                "notinvite": "Esse membro não possue convite",
+                "notinviteguild": "O servidor ainda não tem convites"
+
+            },
+
+            "deleteinvite": {
+
+                "sucess": "Convite deletado com sucesso",
+                "notfound": "Não achei esse convite no servidor"
+
+            },
+
+            "inviteinfo": {
+
+                "uses0": "Infinito",
+                "expirenone": "Nunca",
+                "created": "Criado por:",
+                "usest": "Usos totais:",
+                "usesm": "Usos maximos:",
+                "expire": "Expira em:",
+                "datecreate": "Criado em:",
+                "notfound": "Não achei esse convite no servidor"
+
+            },
+
+            "setup": {
+                "init": "Iniciando Configuração",
+                "selectlang": "Selecione o idioma",
+                "invitelogger": "Envie o id ou mencione o canal da log de pessoa convidada",
+                "invitecreate": "Envie o id ou mencione o canal da log de convite criado",
+                "invitedelete": "Envie o id ou mencione o canal da log de convite deletado",
+                "success": "Definido com sucesso",
+                "terminated": "Configuração terminada"
+            }
+        },
+
+        "invites": {
+
+            "invited": "{0} foi convidado por {1} e agora tem {2} convites",
+            "bot": "{0} entrou no servidor por OAuth2",
+            "invitecreate": "{0} criou o convite: {1}, usos maximos: {2}, expira em: {3}",
+            "invitedelete": "O convite {0} foi deletado",
+            "uses": "infinitos",
+            "expira": "nunca"
+
+        },
+
+        "invite": {
+
+            "invite": "Convite",
+            "dsc": "Convide-me clicando aqui"
+
+        },
+
+        "mod": {
+        
+            "notpermission": "Você não tem permissão para fazer isso.",
+            "cooldown": "Você precisa esperar {0} para usar este comando novamente",
+            "botnotpermission1": "Desculpe, mas não tenho permissão para",
+            "botnotpermission2": "para usar este comando",
+
+            "log": "Qual log você vai definir?",
+            "invite": "Membro convidado",
+            "invitecreate": "Convite criado log",
+            "invitedelete": "Convite deletado log",
+            "setlog": "Log definido com sucesso para",
+            "unsetlog": "Chat de log removido",
+
+            "invitename": "Convite",
+            "invitenamecreate": "Convite criado",
+            "invitenamedelete": "Convite deletado"
+
+        }
+
+    },
+
+    "help":{
+
+        "extras":{
+
+            "init":"Escolha a categoria\ndesejada para saber\nmeus comandos",
+        "commands":"Meus comandos"
+        },
+
+        "mod": {
+
+            "name1": "Moderação",
+
+            "name2": "Comandos de moderação",
+
+            "description": "**Nome/Permissão/Função**",
+
+            "content":"Definir-idioma - define o idioma do bot\nDefinir-logs -  define as logs do bot\nDeletar-Convite - deleta um convite criado\nSetup - Inicia a configuração do bot"
+        },
+        "general":{
+
+            "name": "Gerais",
+
+            "description": "Comandos gerais",
+
+            "content":"Ping - Mostra o meu ping e da api do discord\nServers - Diz em quantos servers eu estou\nInvite - Manda o link para convidar o bot\nConvite-Info - Envia as informações de um convite\nConvites - Mostra os seus convites ou de um membro\nBot-info - Mostra algumas informações do bot\nVote - Envia o link para votar no bot"
+        },
+        "suport": {
+
+            "name": "Suporte",
+
+            "description": "Comandos de suporte",
+
+            "content": "Sugestão - Envia uma sugestão para meu dono\nReportar - Envia um report para meu dono"
+        }
+    }
+
+}
